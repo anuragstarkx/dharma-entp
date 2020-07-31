@@ -1,0 +1,317 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+
+}
+
+#mynav {
+	width: 100%;
+	top: 0;
+	transition: 0.2s;
+	z-index: 99;
+	font-size: 20px;
+	background: green;
+}
+
+ul>li {
+	padding-left: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.active {
+	font-weight: bold;
+	background-color: rgba(136,136,136,0.8);
+	border-radius: 10px;
+}
+
+#logo {
+	margin-left: 30px;
+	width: 70px;
+	height: 70px;
+	transition: 0.2s;
+}
+
+.nav {
+	margin-left: 20px;
+}
+
+#home {
+	padding-top: 90px;
+}
+#about, #services, #blog, #contact {
+	padding: 110px 20px 5px;
+}
+
+#about {
+	height: auto;
+	background: rgb(245,245,245);
+}
+
+.mysite:before {
+	display: none;
+	-webkit-transition: .3s all ease-in-out;
+	-o-transition: .3s all ease-in-out;
+	transition: .3s all ease-in-out;
+	background: rgba(0, 0, 0, 0.6);
+	content: "";
+	position: absolute;
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden; 
+}
+
+#myslide {
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 800px;
+}
+
+.carousel-indicators li {
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+}
+
+.carousel-caption {
+	background-color: rgba(136,136,136,0.3);
+}
+
+.caption {
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.desc {
+	font-size:18px;
+}
+
+.banner, .dir-banner {
+	box-shadow: 5px 10px 10px rgba(136,136,136,0.7);
+	height: 100%;
+	width: 100%;
+}
+
+.caption-au {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #5577B4;
+	letter-spacing: .2rem;
+  	font-weight: 900;
+}
+
+.about-desc {
+	margin-left: 50px;
+}
+
+@font-face {
+	font-family: myFont;
+	src: url("css/DancingScript-Bold.ttf");
+}
+
+.tagline {
+	font-size: 36px;
+	color: #4040a1;
+	font-family: myFont;
+	font-weight: bold;
+	margin-bottom: -50px;
+	margin-top: 10px;
+}
+
+.line {
+	height: 2px;
+	font-size: 50px;
+	color: #5577B4;
+}
+
+#year, #no {
+	font-size: 36px;
+	margin-bottom: -5px;
+}
+
+.container-company {
+	margin-bottom: 40px;
+}
+
+.container-director {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.stats-desc {
+	font-size: 18px;
+	color: rgba(0,0,0,0.6);
+}
+
+.stats {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.photo {
+	height: 80px;
+	width: 80px;
+	top: 10px;
+	right: 10px;
+	display: none;
+}
+
+.myname {
+	font-size: 30px;
+	font-family: myFont;
+}
+
+.director {
+	color: rgb(100,100,100);
+}
+
+.fab {
+	padding: 10px;
+	font-size: 20px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	margin: 25px 3px;
+	border-radius: 50%;
+}
+
+.fa-facebook-f:hover {
+	background-color: white;
+	text-decoration: none;
+	color: #3B5998;
+}
+
+.fa-facebook-f {
+	color: white;
+	background-color: #3B5998;
+	background: #3B5998;
+	text-decoration: none;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+	text-decoration: none;
+}
+
+.fa-twitter:hover {
+	background: white;
+	color: #55ACEE;
+	text-decoration: none;
+}
+
+#social {
+	height: 90px;
+	top: 0;
+	transition: 0.5s;
+}
+
+#star {
+	color: red;
+}
+
+.open-chat {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background: linear-gradient(to left, #66ff99 0%, #0066ff 100%);
+	padding: 5px;
+	border: none;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	border-radius: 50%;
+}
+
+.fa-envelope {
+	color: black;
+	font-size: 20px;
+}
+
+.chat-popup {
+	display: none;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	z-index: 99;
+	background: linear-gradient(to left, #66ff99 0%, #0066ff 100%);
+	align-items: center;
+	border-radius: 15px;
+}
+
+.chat-container {
+	max-width: 300px;
+	padding: 12px;
+}
+
+form>h1 {
+	text-align: center;
+}
+
+.buttons {
+	padding-top: -10px;
+	text-align: center;
+
+}
+
+.btn-success {
+	margin-right: 50px;
+}
+
+footer {
+	font-size: 10px;
+	font-family: cursive;
+	color: black;
+	padding-left: 30%;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+	.open-chat {
+		width: 50px;
+		height: 50px;
+	}
+	.fa-envelope {
+		font-size: 18px;
+	}
+	.caption {
+		font-weight: bolder;
+		font-size: 30px;
+	}
+
+	.desc {
+		display: none;
+	}
+	#myslide {
+		height: 80%;
+	}
+	.more {
+		top: 50%;
+	}
+	.ban {
+		display: none;
+	}
+	.photo {
+		display: block;
+	}
+	.container-company {
+		margin-bottom: 30px;
+	}
+	.carousel-caption {
+		background: none;
+	}
+	.dir-banner {
+		display: none;
+	}
+}
