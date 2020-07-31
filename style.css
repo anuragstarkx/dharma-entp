@@ -47,6 +47,11 @@ a.active {
 	padding: 110px 20px 5px;
 }
 
+#contact {
+	background: rgba(102, 153, 255, 0.5);
+	padding-bottom: 50px;
+}
+
 #about {
 	height: auto;
 	background: rgb(245,245,245);
@@ -106,7 +111,7 @@ a.active {
 	text-transform: uppercase;
 	color: #5577B4;
 	letter-spacing: .2rem;
-  	font-weight: 900;
+	font-weight: 900;
 }
 
 .about-desc {
@@ -165,6 +170,11 @@ a.active {
 	display: none;
 }
 
+.con {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .myname {
 	font-size: 30px;
 	font-family: myFont;
@@ -172,6 +182,25 @@ a.active {
 
 .director {
 	color: rgb(100,100,100);
+}
+
+.address {
+	margin-bottom: 10px;
+}
+
+.address i {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.num {
+	padding-top: 10px;
+}
+
+.mail {
+	padding-top: 20px;
 }
 
 .fab {
@@ -197,22 +226,22 @@ a.active {
 	text-decoration: none;
 }
 
-.fa-twitter {
-	background: #55ACEE;
+.fa-instagram {
+	background: linear-gradient(to bottom right, #0000ff -40%, #ff0000 100%);
 	color: white;
 	text-decoration: none;
 }
 
-.fa-twitter:hover {
+.fa-instagram:hover {
 	background: white;
-	color: #55ACEE;
+	color: linear-gradient(to bottom right, #0000ff -40%, #ff0000 100%);
 	text-decoration: none;
 }
 
 #social {
 	height: 90px;
-	top: 0;
 	transition: 0.5s;
+	margin-top: -20px;
 }
 
 #star {
@@ -313,5 +342,8 @@ footer {
 	}
 	.dir-banner {
 		display: none;
+	}
+	#about {
+		padding-top: 80px;
 	}
 }
