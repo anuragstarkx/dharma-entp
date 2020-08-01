@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/data.json"></script>
+	<script type="text/javascript" src="js/readJson.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -17,7 +19,7 @@
 	<link rel="icon" href="images/logo1.png" type="image/png">
 	<title>Dharma Enterprises</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="30" onload="getYear()">
+<body data-spy="scroll" data-target=".navbar" data-offset="30" onload="start()">
 	<div class="mysite">
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" id="mynav">
@@ -138,7 +140,8 @@
 						<strong class="d-block myname">Rajesh Kumar Gupta<img src="images/logo1.png" class="float-right photo"></strong>
 						<span class="director">Director</span>
 						<br><br>
-						<p>He is the founder and director of <b>Dharma Enterprises</b>. He has 20+ yrs. experience in Mechanical Engineering. He has worked for many global reputed industries.</p>
+						<p>He is the founder and director of <b>Dharma Enterprises</b>. He has 30+ yrs. experience in the field of Engineering and Technology. He started his career as DET in Usha Martin Industries Limited Ranchi. In his career, different destination came like SICPA India Limited, Caparo and Hero Motors Limited. He carried out his duty successfully. After spending 26 years in the industries, in 2016 he decidede to start his own business. This was the starting of Dharma Enterprises.
+						</p>
 					</div>
 					<div class="col-lg-6 ml-auto" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
 						<img src="images/name.png" class="img-fluid dir-banner" alt="Director">
@@ -153,19 +156,29 @@
 		</div>
 		<div id="blog">
 			<!-- Blog Section -->
-			<h1>BLOG</h1>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
+			<div class="container" id="blogit">
+				<div class="row">
+					<div class="col-lg-4"></div>
+					<div class="col-lg-4">
+						<h1 style="text-align: center;">BLOG</h1>
+						<h5 style="text-align: center;">Latest News and Updates</h5>
+						<h6 style="text-align: center;">______________________________________</h6><br>
+					</div>
+
+				</div>
+				<!-- 3 Blog Cards goes right here -->
+			</div>
 		</div>
 
 		<div id="contact">
 			<!-- Contact us Section -->
 			<div class="container">
+				<h1 class="con"><b>CONTACT US</b></h1>
 				<div class="row">
 					<div class="col-lg-6">
 						<iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=UGF-11,%20Design%20Arch%20E%20Homes%20Marketing%20Complex%20Site%20C,%20Surajpur,%20Near%20Commercial%20Belt,%20Greater%20Noida+(Dharma%20Enterprises)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0"></iframe>
 					</div>
-					<div class="col-lg-5 ml-auto">
-						<h1 class="con"><b>CONTACT US</b></h1>
+					<div class="col-lg-5 ml-auto mt-5 hi">
 						<div class="address">
 							<div class="row">
 								<div class="col-lg-2"><i class='fas fa-home'></i></div>
@@ -195,10 +208,12 @@
 								</div>
 							</div>
 						</div>
-						<h5><b>Follow us on:</b></h5>
-						<div class="social-wrap" id="social">
-							<a href="#" class="fab fa-facebook-f"><!-- Fb link to be provided --></a>
-							<a href="#" class="fab fa-instagram"><!-- Insta link to be provided --></a>
+						<div class="hi">
+							<h5><b>Follow us on:</b></h5>
+							<div class="social-wrap" id="social">
+								<a href="#" class="fab fa-facebook-f"><!-- Fb link to be provided --></a>
+								<a href="#" class="fab fa-instagram"><!-- Insta link to be provided --></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -206,6 +221,9 @@
 		</div>
 
 		<!-- Footer Section -->
+		<div id="test">
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
+		</div>
 		
 		<!-- Popup Chat Box -->
 		<button class="open-chat" onclick="openChat()">

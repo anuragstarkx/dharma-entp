@@ -21,12 +21,6 @@ function closeChat() {
 	document.getElementById("myChat").style.display = "none";
 }
 
-function getYear() {
-  var d = new Date();
-  var n = d.getFullYear();
-  document.getElementById("year").innerHTML = n-2016;
-}
-
 function initMap() {
   var test= {lat: 28.510693, lng: 77.521802}; 
   var map = new google.maps.Map(document.getElementById('mymap'), { 

@@ -1,0 +1,37 @@
+var data = [
+{
+	"id" : 1,
+	"title" : "ABCDEFG",
+	"desc" : "asdfghjklqwertyuiopzmvnbc",
+	"date" : "1 August, 2020",
+	"image" : "images/solar1.jpg"
+},
+{
+	"id" : 2,
+	"title" : "ABCDEFG",
+	"desc" : "asdfghjklqwertyuiopzmvnbc",
+	"date" : "2 August, 2020",
+	"image" : "images/solar1.jpg"
+},
+{
+	"id" : 3,
+	"title" : "ABCDEFG",
+	"desc" : "asdfghjklqwertyuiopzmvnbc",
+	"date" : "3 August, 2020",
+	"image" : "images/solar1.jpg"
+},
+{
+	"id" : 4,
+	"title" : "ABCDEFG",
+	"desc" : "asdfghjklqwertyuiopzmvnbc",
+	"date" : "4 August, 2020",
+	"image" : "images/street.jpg"
+},
+{
+	"id" : 5,
+	"title" : "ABCDEFG",
+	"desc" : "asdfghjklqwertyuiopzmvnbc",
+	"date" : "5 August, 2020",
+	"image" : "images/transformer.jpg"
+}
+]

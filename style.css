@@ -43,18 +43,30 @@ a.active {
 #home {
 	padding-top: 90px;
 }
-#about, #services, #blog, #contact {
+#about, #services, #blog {
 	padding: 110px 20px 5px;
 }
 
 #contact {
 	background: rgba(102, 153, 255, 0.5);
 	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 90px;
+}
+
+.hi {
+	margin-top: 40px;
 }
 
 #about {
 	height: auto;
 	background: rgb(245,245,245);
+}
+
+#blog {
+	margin-top: -30px;
+	margin-bottom: 60px;
 }
 
 .mysite:before {
@@ -197,6 +209,16 @@ a.active {
 
 .num {
 	padding-top: 10px;
+}
+
+.blog-card {
+	height: 100px;
+	margin-top: 25%;
+	
+}
+
+.card-title {
+	margin-top: 20px;
 }
 
 .mail {
