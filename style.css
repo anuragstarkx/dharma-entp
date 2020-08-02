@@ -112,10 +112,17 @@ a.active {
 	font-size:18px;
 }
 
-.banner, .dir-banner {
+.banner {
 	box-shadow: 5px 10px 10px rgba(136,136,136,0.7);
 	height: 100%;
 	width: 100%;
+}
+
+.dir-banner {
+	box-shadow: 5px 10px 10px rgba(136,136,136,0.7);
+	height: 60%;
+	width: 60%;
+	margin-left: 100px;	
 }
 
 .caption-au {
@@ -180,11 +187,11 @@ a.active {
 	top: 10px;
 	right: 10px;
 	display: none;
+	border-radius: 50%;
 }
 
 .con {
-	text-align: center;
-	margin-bottom: 20px;
+	margin-top: 40px;
 }
 
 .myname {
@@ -218,6 +225,10 @@ a.active {
 }
 
 .card-title {
+	margin-top: 20px;
+}
+
+.for-more {
 	margin-top: 20px;
 }
 
