@@ -44,10 +44,31 @@ function readCat() {
 	document.getElementById("cat").appendChild(divtag);
 }
 
+function readClient() {
+	var client = clients;
+	var design_data = "";
+	for (var i = 0; i < client.length; i+=2) {
+		design_data += '<div class="col-lg-3 cli-col">\
+						<img src="' + client[i].img + '" class="img-client">\
+						<p><h4><b>' + client[i].Client + '</b></h4></p>\
+					</div>\
+					<div class="col-lg-3 cli-col">\
+						<img src="' + client[i+1].img + '" class="img-client">\
+						<p><h4><b>' + client[i+1].Client + '</b></h4></p>\
+					</div>';
+		console.log(client[i].Client + " and " + client[i+1].Client);
+	}
+	var divtag =document.createElement('div');
+	divtag.className = "row";
+	divtag.innerHTML = design_data;
+	document.getElementById("cli").appendChild(divtag);
+}
+
 function start() {
 	getYear();
 	readJson();
 	readCat();
+	readClient();
 }
 
 function moreBlog() {
