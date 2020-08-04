@@ -1,0 +1,37 @@
+var category = [
+{
+	"type" : "LED Products",
+	"desc" : "We provide varieties of LED lights ranging from indoor to outdoor area. LED is most effective and long lasting products.",
+	"img" : "images/ledpro.jpg"
+},
+{
+	"type" : "Solar Energy Products",
+	"desc" : "We are aiming to provide pollution free energy via various solar equipments. Our products varies from home based to industrial.",
+	"img" : "images/solarpro.jpg"
+},
+{
+	"type" : "Measuring & Testing Equipments",
+	"desc" : "We provide various measuring and testing devices for mechanical, electrical and electronics purposes.",
+	"img" : "images/meter.jpg"
+},
+{
+	"type" : "Electrical Components",
+	"desc" : "There are lots of sub types including Transformers, UPS, Batteries, etc. We provide different kinds of electrical components from small to large.",
+	"img" : "images/electro.jpg"
+},
+{
+	"type" : "Mechanical Components",
+	"desc" : "Every machine needs various small components to make one. We offer all those components and big one too. We also provide spare parts.",
+	"img" : "images/mech.jpg"
+},
+{
+	"type" : "Maintenance & Services",
+	"desc" : "We provide services to enhance the life and quality of the equipments, machineries and plants via competant techincians and engineer.",
+	"img" : "images/service.jpeg"
+},
+{
+	"type" : "Job Works",
+	"desc" : "We deliver the child parts of the equipments by machining, fabrication, assembling and commissioning as per given sample/drawing.",
+	"img" : "images/job.jpg"
+}
+]

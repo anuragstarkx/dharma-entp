@@ -1,0 +1,62 @@
+var clients = [
+ {
+   "Client": "Hero Motors",
+   "Detail": "Hero Motors (A Division of Hero Cycles Limited), Ghaziabad (UP)"
+ },
+ {
+   "Client": "Minda Nabtesco",
+   "Detail": "Minda Nabtesco Automotive Pvt. Ltd. IMT Manesar, Gurgaon (Haryana)"
+ },
+ {
+   "Client": "Laxmi Remote",
+   "Detail": "Laxmi Remote Industries Private Limited, Phase - II Noida (UP)"
+ },
+ {
+   "Client": "Pigeon India",
+   "Detail": "Pigeon India Pvt. Limited, Greater Noida (UP)"
+ },
+ {
+   "Client": "Accord",
+   "Detail": "Accord Transformer & Switchgears Pvt. Ltd. Khushkhera, Bhiwadi (Rajasthan)"
+ },
+ {
+   "Client": "Futaba Industrial ",
+   "Detail": "Futaba Industrial Gujarat Pvt. Ltd. Ahemdabad Gujrat"
+ },
+ {
+   "Client": "CONCOR Delhi",
+   "Detail": "Container Corporation of India Limited, Domestic Terminal, Okhala, Delhi"
+ },
+ {
+   "Client": "CONCOR Dadri",
+   "Detail": "Container Corporation of India Limited, Dadri (U.P.)"
+ },
+ {
+   "Client": "Ogura Clutch",
+   "Detail": "Ogura Clutch India Private Limited, Manesar, Gurgaon (Haryana)"
+ },
+ {
+   "Client": "Triveni",
+   "Detail": "Triveni Engineering and Industries Limited, Agra, Noida (U.P.) and Huda Gurgaon (Haryana)"
+ },
+ {
+   "Client": "India Steel",
+   "Detail": "India Steel Summit Pvt. Ltd. Udyogkendra, Greater Noida (U.P.)"
+ },
+ {
+   "Client": "FMI Automotive",
+   "Detail": "FMI Automotive Components Pvt. Ltd. IMT Manesar, Gurgaon (Haryana)"
+ },
+ {
+   "Client": "Zee Entertainment",
+   "Detail": "Zee Entertainment Enterprises Limited, Noida (U.P.)"
+ },
+ {
+   "Client": "Vectus Industries",
+   "Detail": "Vectus Industries Limited, Jammu (J & K) and Sikandrabad (U.P.)"
+ },
+ {
+   "Client": "Varun Beverages",
+   "Detail": "Varun Beverages Limited, Greater Noida (U.P.)"
+ }
+]
