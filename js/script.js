@@ -21,6 +21,21 @@ function closeChat() {
 	document.getElementById("myChat").style.display = "none";
 }
 
+function sendMail() {
+  Email.send({
+        Host: "smtp.gmail.com",
+        Username : "anuragxprime@gmail.com",
+        Password : "anuragtitan",
+        To : 'anuragxprime@gmail.com',
+        From : document.getElementById("smail").value,
+        Subject : "Test mail",
+        Body : document.getElementById("sbody").value,
+      })
+      .then(function(message){
+        alert("mail sent successfully")
+      });
+}
+
 function initMap() {
   var test= {lat: 28.510693, lng: 77.521802}; 
   var map = new google.maps.Map(document.getElementById('mymap'), { 

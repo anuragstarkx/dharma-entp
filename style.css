@@ -255,17 +255,30 @@ a.active {
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .cat-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  height: 450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+	height: 450px;
+}
+
+.pro-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+	height: 330px;	
+}
+
+.pro-img {
+	width: 50%;
+	height: 60%;
 }
 
 .cat-card button {
@@ -330,7 +343,7 @@ a.active {
 	color: white;	
 }
 
-#blog-body {
+#blog-body, #product-body {
 	background: rgba(102, 153, 255, 0.5);
 }
 
@@ -486,9 +499,9 @@ footer {
 		margin: 25%;
 	}
 	.column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-    margin-right: 10px;
-  	}
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		margin-right: 10px;
+	}
 }

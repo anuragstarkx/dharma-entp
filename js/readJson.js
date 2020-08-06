@@ -34,10 +34,11 @@ function readCat() {
 							<h4><b>' + cat[i].type + '</b></h4>\
 							<p>' + cat[i].desc + '</p>\
 							</div>\
-							<button class="btn btn-dark" onclick="viewProduct(' + cat[i].type + ')"><b>SHOW</b></button>\
+							<button class="btn btn-dark" data-toggle="modal" data-target="#product-mod" onclick="viewProduct('+i+')"><b>SHOW</b></button>\
 						</div>\
 					</div>';
 	}
+	design_data += '<div class="column text-center mt-auto mb-auto text-light"><h4><b>& more...</b></h4></div>';
 	var divtag =document.createElement('div');
 	divtag.className = "row";
 	divtag.innerHTML = design_data;
@@ -56,7 +57,6 @@ function readClient() {
 						<img src="' + client[i+1].img + '" class="img-client">\
 						<p><h4><b>' + client[i+1].Client + '</b></h4></p>\
 					</div>';
-		console.log(client[i].Client + " and " + client[i+1].Client);
 	}
 	var divtag =document.createElement('div');
 	divtag.className = "row";
@@ -93,4 +93,33 @@ function moreBlog() {
 
 function emptyBlog() {
 	document.getElementById("blog-body").innerHTML = "";
+}
+
+function viewProduct(type) {
+	var product = products;
+	var design_data = "";
+	for (var i = 0; i < product.length; i++) {
+		if (type == product[i].id) {
+			cat = product[i].Category;
+			console.log(product[i].Product);
+			design_data += '<div class="column"> \
+								<div class="card pro-card"> \
+									<img src="' + product[i].img + '" alt="' + product[i].Product + ' Image" class="card-img-top pro-img">\
+									<div class="card-body">\
+										<h4><b>' + product[i].Product + '</b></h4>\
+									</div>\
+								</div>\
+							</div>';
+		}
+	}
+	document.getElementById("pro-title").innerHTML = cat;
+	var divtag = document.createElement('div');
+	divtag.className = "row";
+	divtag.innerHTML = design_data;
+	document.getElementById("product-body").appendChild(divtag);
+}
+
+function emptyProduct() {
+	document.getElementById("product-body").innerHTML = "";
+	document.getElementById("pro-title").innerHTML = "";
 }

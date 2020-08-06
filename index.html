@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="js/clients.json"></script>
 	<script type="text/javascript" src="js/product.json"></script>
 	<script type="text/javascript" src="js/readJson.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -160,6 +161,20 @@
 			<div class="container" id="cat">
 				<!-- Categories card goes here -->
 			</div>
+			<!-- Products Modal -->
+			<div class="modal" id="product-mod">
+				<div class="modal-dialog modal-dialog-scrollable modal-xl">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title"><b id="pro-title"></b></h3>
+							<button type="button" class="close" data-dismiss="modal" onclick="emptyProduct()">x</button>
+						</div>
+						<div class="modal-body" id="product-body">
+							<!-- Products Cards goes here -->
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="container client" id="cli">
 				<hr>
 				<div class="row">
@@ -274,15 +289,15 @@
 			<i class='fas fa-envelope'></i>
 		</button>
 		<div class="chat-popup" id="myChat">
-			<form action="index.html" class="chat-container">
+			<form action="send.php" method="post" class="chat-container">
 				<h1>Chat with us</h1>
 				<div class="form-group">
 					<label for="email"><span id="star">*</span> Email: </label>
-					<input type="email" class="form-control" name="email" placeholder="Enter Email" autofocus required>
+					<input type="email" class="form-control" name="email" placeholder="Enter Email" id="smail" autofocus required>
 				</div>
 				<div class="form-group">
 					<label for="body"><span id="star">*</span> Your Query:</label>
-					<textarea placeholder="Type your query here..." class="form-control" name="body" required=""></textarea>
+					<textarea placeholder="Type your query here..." class="form-control" name="body" id="sbody" required></textarea>
 				</div>
 				<div class="buttons">
 					<button type="submit" class="btn btn-success">Send</button>

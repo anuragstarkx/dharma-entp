@@ -1,318 +1,464 @@
-[
+var products = [
  {
+   "id": 0,
    "Category": "LED Products",
-   "Product": "Street lights"
+   "Product": "Street lights",
+   "img": "images/products/street.jpg"
  },
  {
+   "id": 0,
    "Category": "LED Products",
-   "Product": "Tube lights"
+   "Product": "Tube lights",
+   "img": "images/products/tubelight.jpg"
  },
  {
+   "id": 0,
    "Category": "LED Products",
-   "Product": "High bay lights"
+   "Product": "High bay lights",
+   "img": "images/products/highbay.jpg"
  },
  {
+   "id": 0,
    "Category": "LED Products",
-   "Product": "Down lighters"
+   "Product": "Down lighters",
+   "img": "images/products/down.jpg"
  },
  {
+   "id": 0,
    "Category": "LED Products",
-   "Product": "Surface Lights"
+   "Product": "Surface Lights",
+   "img": "images/products/surface.jpg"
  },
  {
+   "id": 0,
    "Category": "LED Products",
-   "Product": "Panel Lights"
+   "Product": "Panel Lights",
+   "img": "images/products/panel.jpg"
  },
  {
+   "id": 0,
    "Category": "LED Products",
-   "Product": "Flood Lights"
+   "Product": "Flood Lights",
+   "img": "images/products/flood.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar LED Street Light"
+   "Product": "Solar LED Street Light",
+   "img": "images/products/solarstreet.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar  Light and Fan"
+   "Product": "Solar  Light and Fan",
+   "img": "images/products/fan.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar Water Pump"
+   "Product": "Solar Water Pump",
+   "img": "images/products/pump.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar UPS"
+   "Product": "Solar UPS",
+   "img": "images/products/ups.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Erection and commissioning of Complete Solar Power System"
+   "Product": "Erection and commissioning of Solar Power System",
+   "img": "images/products/system.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar Inverter"
+   "Product": "Solar Inverter",
+   "img": "images/products/inverter.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar Modules/ Panels"
+   "Product": "Solar Modules/ Panels",
+   "img": "images/products/module.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar Power Plant"
+   "Product": "Solar Power Plant",
+   "img": "images/products/power.jpg"
  },
  {
+   "id": 1,
    "Category": "Solar Energy Products",
-   "Product": "Solar water heaters"
+   "Product": "Solar water heaters",
+   "img": "images/products/heater.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Digital Multi meters"
+   "Product": "Digital Multi meters",
+   "img": "images/products/multimeter.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Tong Tester / Digital Clamp Meter"
+   "Product": "Tong Tester / Digital Clamp Meter",
+   "img": "images/products/tong.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Static charge meter"
+   "Product": "Static charge meter",
+   "img": "images/products/static.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "DB Meter (Sound Meter)"
+   "Product": "DB Meter (Sound Meter)",
+   "img": "images/products/db.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Oxygen Meter"
+   "Product": "Oxygen Meter",
+   "img": "images/products/oxygen.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Vibration Meter"
+   "Product": "Vibration Meter",
+   "img": "images/products/vibration.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Insulation Tester / Megger "
+   "Product": "Insulation Tester / Megger ",
+   "img": "images/products/insulation.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Air Delivery Meter (Anemo Meter)"
+   "Product": "Air Delivery Meter (Anemo Meter)",
+   "img": "images/products/anemometer.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Water Level Controller"
+   "Product": "Water Level Controller",
+   "img": "images/products/water.jpg"
  },
  {
+   "id": 2,
    "Category": "Measuring and Testing Equipments",
-   "Product": "Panel Meters"
+   "Product": "Panel Meters",
+   "img": "images/products/panelp.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Switch Gears"
+   "Product": "Switch Gears",
+   "img": "images/products/gears.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Contactors"
+   "Product": "Contactors",
+   "img": "images/products/contactor.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Relay and Relays Modules"
+   "Product": "Relay and Relays Modules",
+   "img": "images/products/relay.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "MCCB"
+   "Product": "MCCB",
+   "img": "images/products/mccb.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "MCB"
+   "Product": "MCB",
+   "img": "images/products/mcb.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "MPCB"
+   "Product": "MPCB",
+   "img": "images/products/mpcb.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Proximity Switch"
+   "Product": "Proximity Switch",
+   "img": "images/products/proximity.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Reed Switch"
+   "Product": "Reed Switch",
+   "img": "images/products/reed.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Pressure Switch"
+   "Product": "Pressure Switch",
+   "img": "images/products/pressure.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "AC Drives/VFD"
+   "Product": "AC Drives/VFD",
+   "img": "images/products/ac.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Electrical Cables"
+   "Product": "Electrical Cables",
+   "img": "images/products/cable.png"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "UPS and Battery"
+   "Product": "UPS and Battery",
+   "img": "images/products/battery.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Inverter and Tubular Batteries"
+   "Product": "Inverter and Tubular Batteries",
+   "img": "images/products/tubular.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Transformers"
+   "Product": "Transformers",
+   "img": "images/products/transf.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "HT / LT Servo Voltage stabilizer"
+   "Product": "HT / LT Servo Voltage stabilizer",
+   "img": "images/products/servo.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Electronic Sensors"
+   "Product": "Light Curtain Sensors",
+   "img": "images/products/light.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Light Curtain Sensors"
+   "Product": "Proximity Sensors",
+   "img": "images/products/proxy.jpg"
  },
  {
+   "id": 3,
    "Category": "Electrical Components",
-   "Product": "Proximity Sensrs"
+   "Product": "Optical Sensors",
+   "img": "images/products/optical.jpg"
  },
  {
-   "Category": "Electrical Components",
-   "Product": "Optical Sensors"
- },
- {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Ball Bearings"
+   "Product": "Ball Bearings",
+   "img": "images/products/ball.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "T/R Bearing"
+   "Product": "T/R Bearing",
+   "img": "images/products/tr.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "A/C Bearing"
+   "Product": "A/C Bearing",
+   "img": "images/products/acb.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Thrust Bearing"
+   "Product": "Thrust Bearing",
+   "img": "images/products/thrust.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "V-Belt"
+   "Product": "V-Belt",
+   "img": "images/products/vbelt.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Flat Belt"
+   "Product": "Flat Belt",
+   "img": "images/products/flat.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Wedge Belt"
+   "Product": "Wedge Belt",
+   "img": "images/products/wedge.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Timber Belt"
+   "Product": "Timer Belt",
+   "img": "images/products/timer.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Tyre Coupling"
+   "Product": "Tyre Coupling",
+   "img": "images/products/tyre.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Gear Coupling"
+   "Product": "Gear Coupling",
+   "img": "images/products/gearc.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Love Joy Coupling"
+   "Product": "Love Joy Coupling",
+   "img": "images/products/love.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Servo Motor Coupling"
+   "Product": "Servo Motor Coupling",
+   "img": "images/products/servom.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Industrial Pneumatics and Hydraulic Fittings"
+   "Product": "Pneumatics and Hydraulic Fittings",
+   "img": "images/products/hydro.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Piston Pump"
+   "Product": "Piston Pump",
+   "img": "images/products/piston.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Vane Pump"
+   "Product": "Vane Pump",
+   "img": "images/products/vane.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Gear Pump"
+   "Product": "Gear Pump",
+   "img": "images/products/gearp.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Hydraulic and Pneumatics Valves"
+   "Product": "Hydraulic and Pneumatics Valves",
+   "img": "images/products/hydraulic.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Hydraulic Couplers(Quick Release Coupling)"
+   "Product": "Hydraulic Couplers",
+   "img": "images/products/coupler.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Oil Seals and Rubber Seals"
+   "Product": "Oil Seals and Rubber Seals",
+   "img": "images/products/seal.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Hydraulic Filters"
+   "Product": "Hydraulic Filters",
+   "img": "images/products/filter.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Hydraulic and Pneumatics Hose Pipes"
+   "Product": "Hydraulic Hose Pipes & Fittings",
+   "img": "images/products/hose.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "PU Tubes and Fittings"
+   "Product": "PU Tubes and Fittings",
+   "img": "images/products/pu.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Fasteners(Nut/Bolt)"
+   "Product": "Fasteners(Nut/Bolt)",
+   "img": "images/products/fastener.jpg"
  },
  {
+   "id": 4,
    "Category": "Mechanical Components",
-   "Product": "Job Works(Machining Items)"
+   "Product": "Spare Parts",
+   "img": "images/products/spare.jpg"
  },
  {
-   "Category": "Mechanical Components",
-   "Product": "Spare Parts"
- },
- {
+   "id": 5,
    "Category": "Maintenance & Services",
-   "Product": "Transformers"
+   "Product": "Transformers",
+   "img": "images/products/transformer.jpg"
  },
  {
+   "id": 5,
    "Category": "Maintenance & Services",
-   "Product": "Air Conditiong System"
+   "Product": "Air Conditiong System",
+   "img": "images/products/air.jpg"
  },
  {
+   "id": 5,
    "Category": "Maintenance & Services",
-   "Product": "Electrical Motors"
+   "Product": "Electrical Motors",
+   "img": "images/products/motor.jpg"
  },
  {
+   "id": 5,
    "Category": "Maintenance & Services",
-   "Product": "Pumps"
+   "Product": "Pumps",
+   "img": "images/products/pump1.jpg"
  },
  {
+   "id": 5,
    "Category": "Maintenance & Services",
-   "Product": "Compressors"
+   "Product": "Compressors",
+   "img": "images/products/compressor.jpg"
  },
  {
+   "id": 5,
    "Category": "Maintenance & Services",
-   "Product": "Paint Shop"
+   "Product": "Paint Shop",
+   "img": "images/products/paint.jpg"
  },
  {
+   "id": 5,
    "Category": "Maintenance & Services",
-   "Product": "Electrical Control Panels"
+   "Product": "Electrical Control Panels",
+   "img": "images/products/electrical.jpg"
  },
  {
+   "id": 6,
    "Category": "Job Works",
-   "Product": "Machining items"
+   "Product": "Machining items",
+   "img": "images/products/box.jpg"
  },
  {
+   "id": 6,
    "Category": "Job Works",
-   "Product": "Electric Control Panels"
+   "Product": "Electric Control Panels",
+   "img": "images/products/electric.jpg"
  }
 ]
