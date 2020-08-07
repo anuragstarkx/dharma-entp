@@ -276,6 +276,10 @@ a.active {
 	height: 330px;	
 }
 
+.hidden {
+	display: none;
+}
+
 .pro-img {
 	width: 50%;
 	height: 60%;

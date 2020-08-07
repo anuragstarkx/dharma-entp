@@ -10,7 +10,6 @@
 	<script type="text/javascript" src="js/clients.json"></script>
 	<script type="text/javascript" src="js/product.json"></script>
 	<script type="text/javascript" src="js/readJson.js"></script>
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -70,7 +69,7 @@
 					<div class="carousel-item active">
 						<img src="images/banner.jpg" alt="Banner" id="myslide">
 						<div class="carousel-caption more" style="top: 30%; left: 10%; background:none;">
-							<p class="desc"><a href="#" class="btn btn-primary">Know More</a></p>
+							<p class="desc hidden"><a href="#" class="btn btn-primary">Know More</a></p>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -285,11 +284,12 @@
 		</div>
 		
 		<!-- Popup Chat Box -->
+		<div class="hidden">
 		<button class="open-chat" onclick="openChat()">
 			<i class='fas fa-envelope'></i>
 		</button>
 		<div class="chat-popup" id="myChat">
-			<form action="send.php" method="post" class="chat-container">
+			<form class="chat-container">
 				<h1>Chat with us</h1>
 				<div class="form-group">
 					<label for="email"><span id="star">*</span> Email: </label>
@@ -300,13 +300,14 @@
 					<textarea placeholder="Type your query here..." class="form-control" name="body" id="sbody" required></textarea>
 				</div>
 				<div class="buttons">
-					<button type="submit" class="btn btn-success">Send</button>
+					<button type="button" class="btn btn-success" onclick="sendMail()">Send</button>
 					<button type="button" class="btn btn-danger" onclick="closeChat()">Close</button>
 				</div>
 			</form>
 			<footer>
 				<span>Made by Anurag Gupta</span>
 			</footer>
+		</div>
 		</div>
 	</div>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
