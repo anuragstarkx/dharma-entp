@@ -122,7 +122,7 @@ a.active {
 }
 
 .carousel-caption {
-	background-color: rgba(136,136,136,0.3);
+	background-color: rgba(136,136,136,0.6);
 }
 
 .caption {
@@ -233,6 +233,10 @@ a.active {
 	margin-bottom: 10px;
 }
 
+.hit {
+	display: none;
+}
+
 .address i {
 	float: left;
 	margin-left: 20px;
@@ -321,7 +325,12 @@ a.active {
 	background-color: rgba(136,136,136,0.8);
 	height: auto;
 	width: auto;
-	margin: 25%;
+	margin: 20%;
+}
+
+#cross {
+	font-size: 40px;
+	color: red;
 }
 
 #services .header {
@@ -361,7 +370,7 @@ a.active {
 	width: 40px;
 	text-align: center;
 	text-decoration: none;
-	margin: 25px 3px;
+	margin: 25px 7px;
 	border-radius: 50%;
 }
 
@@ -387,6 +396,18 @@ a.active {
 .fa-instagram:hover {
 	background: white;
 	color: linear-gradient(to bottom right, #0000ff -40%, #ff0000 100%);
+	text-decoration: none;
+}
+
+.fa-linkedin-in {
+	color: white;
+	text-decoration: none;
+	background: #0066FF;
+}
+
+.fa-linkedin-in:hover {
+	color: #0066FF;
+	background: white;
 	text-decoration: none;
 }
 
@@ -508,4 +529,7 @@ footer {
 		margin-bottom: 20px;
 		margin-right: 10px;
 	}
+	.hit {
+	display: block;
+}
 }

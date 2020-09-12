@@ -1,37 +1,39 @@
 var data = [
 {
 	"id" : 1,
-	"title" : "ABCDEFG",
-	"desc" : "asdfghjklqwertyuiopzmvnbc",
-	"date" : "1 August, 2020",
+	"title" : "Inauguration Day",
+	"desc" : "Dharma Enterprises was inaugurated today by co-founder <b>Smt. Anuradha Gupta</b>.",
+	"date" : "1 November, 2016",
 	"image" : "images/solar1.jpg"
 },
 {
 	"id" : 2,
-	"title" : "ABCDEFG",
-	"desc" : "asdfghjklqwertyuiopzmvnbc",
-	"date" : "2 August, 2020",
+	"title" : "First Order",
+	"desc" : "Our very first order was from a renound company Hero Motors (A Div. of Hero Cycles Ltd.).",
+	"date" : "7 November, 2016",
 	"image" : "images/solar1.jpg"
 },
 {
 	"id" : 3,
-	"title" : "ABCDEFG",
-	"desc" : "asdfghjklqwertyuiopzmvnbc",
-	"date" : "3 August, 2020",
+	"title" : "Triveni Engineering & Industries Ltd.",
+	"desc" : "Our next big dealership begins with Triveni Engineering Water Business group of Companies.",
+	"date" : " 12 May, 2017",
 	"image" : "images/solar1.jpg"
 },
 {
 	"id" : 4,
-	"title" : "ABCDEFG",
-	"desc" : "asdfghjklqwertyuiopzmvnbc",
-	"date" : "4 August, 2020",
-	"image" : "images/street.jpg"
+	"title" : "FMI Auto Components Pvt Ltd",
+	"desc" : "We started to supply the machining items in auto industries.",
+	"date" : "7 February, 2018",
+	"image" : "images/solar1.jpg"
 },
+
 {
 	"id" : 5,
-	"title" : "ABCDEFG",
-	"desc" : "asdfghjklqwertyuiopzmvnbcqqqqqqqqqwertyuiopasdfghjklzxcvbnmbhlvareilbvierbviebvuebvebvuevbvoebvbeivbdfnvjnvoervoeevebvebvjsvs fs vebvebebevoievkjlvbegktjvkjsbjkbbblbte",
-	"date" : "5 August, 2020",
-	"image" : "images/transformer.jpg"
-}
-]
+	"title" : "CONCOR",
+	"desc" : "Another milestone for us was get step up in <b>Container Corporation of India Ltd</b>.",
+	"date" : "15 January, 2020",
+	"image" : "images/solar1.jpg"
+},
+
+] 
